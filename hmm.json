@@ -1,0 +1,21 @@
+{
+  "dependencies": [
+    {
+      "name": "flixel",
+      "type": "haxelib",
+      "version": "6.2.0"
+    },
+    {
+      "name": "flixel-addons",
+      "type": "haxelib",
+      "version": "4.0.2"
+    },
+    {
+      "name": "flxscaledslicesprite",
+      "type": "git",
+      "dir": null,
+      "ref": "main",
+      "url": "https://github.com/TracedInPurple/FlxScaledSliceSprite"
+    }
+  ]
+}

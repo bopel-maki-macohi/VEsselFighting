@@ -8,7 +8,7 @@
 
 	<!-- _________________________ Application Settings _________________________ -->
 
-	<app title="VEsselFighting" file="VEsselFighting" main="Main" version="0.1.0" company="MouseProductions" />
+	<app title="VEsselFighting" file="VEsselFighting" main="vef.Main" version="0.1.0" company="MouseProductions" />
 
 	<!--The flixel preloader is not accurate in Chrome. You can use it regularly if you embed the swf into a html file
 		or you can set the actual size of your file manually at "FlxPreloaderBase-onUpdate-bytesTotal"-->
@@ -42,15 +42,9 @@
 	<!-- _______________________________ Libraries ______________________________ -->
 
 	<haxelib name="flixel" />
+	<haxelib name="flixel-addons" />
 
-	<!--In case you want to use the addons package-->
-	<!--<haxelib name="flixel-addons" />-->
-
-	<!--In case you want to use the ui package-->
-	<!--<haxelib name="flixel-ui" />-->
-
-	<!--In case you want to use nape with flixel-->
-	<!--<haxelib name="nape-haxe4" />-->
+	<haxelib name="flxscaledslicesprite" />
 
 	<!-- ______________________________ Haxedefines _____________________________ -->
 
