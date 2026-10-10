@@ -17,6 +17,8 @@ class PlayState extends FlxState
 		vesselBox.screenCenter();
 
 		add(vessel = new VFSprite(0,0,'assets/images/vessel.png'));
+		vessel.scale.set(4,4);
+		vessel.updateHitbox();
 		vessel.screenCenter();
 	}
 
